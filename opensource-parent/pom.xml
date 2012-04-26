@@ -33,6 +33,7 @@
 
 		<!-- libraries versions  -->
 		<libs.junit.version>4.8.2</libs.junit.version>
+		<libs.lang.version>0.2.0-SNAPSHOT</libs.lang.version>
 
 		<!-- maven properties -->
 		<maven.compile.source>1.5</maven.compile.source>
@@ -214,6 +215,13 @@
 			<artifactId>junit</artifactId>
 			<version>${libs.junit.version}</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>bingo.core</groupId>
+			<artifactId>bingo-lang</artifactId>
+			<version>${libs.lang.version}</version>
+			<type>jar</type>
+			<scope>compile</scope>
 		</dependency>
 	</dependencies>
 </project>
