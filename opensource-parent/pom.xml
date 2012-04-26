@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>bingo.pom</groupId>
-	<artifactId>opensource-parent</artifactId>
+	<artifactId>bingo-opensource-parent</artifactId>
 	<version>1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
