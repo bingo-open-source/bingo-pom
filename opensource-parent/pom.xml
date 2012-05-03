@@ -33,7 +33,7 @@
 
 		<!-- libraries versions  -->
 		<libs.junit.version>4.8.2</libs.junit.version>
-		<libs.lang.version>0.2.0-SNAPSHOT</libs.lang.version>
+		<libs.lang.version>0.5.0-SNAPSHOT</libs.lang.version>
 
 		<!-- maven properties -->
 		<maven.compile.source>1.5</maven.compile.source>
