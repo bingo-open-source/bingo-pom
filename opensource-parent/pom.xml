@@ -32,7 +32,8 @@
 		<common.encoding>UTF-8</common.encoding>
 
 		<!-- libraries versions  -->
-		<libs.junit.version>4.8.2</libs.junit.version>
+		<libs.junit.version>4.10</libs.junit.version>
+		<libs.slf4j.version>1.6.4</libs.slf4j.version>
 		<libs.lang.version>1.0.0-SNAPSHOT</libs.lang.version>
 
 		<!-- maven properties -->
@@ -239,6 +240,20 @@
 			<version>${libs.lang.version}</version>
 			<type>jar</type>
 			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${libs.slf4j.version}</version>
+			<type>jar</type>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>${libs.slf4j.version}</version>
+			<type>jar</type>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 </project>
